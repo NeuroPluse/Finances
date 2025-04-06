@@ -1,0 +1,268 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.task_1"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:4:5-80
+11-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:4:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:5:5-79
+12-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:5:22-77
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:6:5-66
+13-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:6:22-64
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:5:5-79
+14-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:5:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:4:5-80
+15-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:4:22-78
+16
+17    <permission
+17-->[androidx.core:core:1.13.1] C:\Users\madao\.gradle\caches\transforms-3\25d18e6de809f56e7482e244ddcc56aa\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+18        android:name="com.example.task_1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.13.1] C:\Users\madao\.gradle\caches\transforms-3\25d18e6de809f56e7482e244ddcc56aa\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.13.1] C:\Users\madao\.gradle\caches\transforms-3\25d18e6de809f56e7482e244ddcc56aa\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.example.task_1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.13.1] C:\Users\madao\.gradle\caches\transforms-3\25d18e6de809f56e7482e244ddcc56aa\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.13.1] C:\Users\madao\.gradle\caches\transforms-3\25d18e6de809f56e7482e244ddcc56aa\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+22
+23    <application
+23-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:10:5-33:19
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.13.1] C:\Users\madao\.gradle\caches\transforms-3\25d18e6de809f56e7482e244ddcc56aa\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+25        android:extractNativeLibs="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:12:9-43
+27        android:label="task_1" >
+27-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:11:9-31
+28        <activity
+28-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:13:9-29:20
+29            android:name="com.example.task_1.MainActivity"
+29-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:14:13-41
+30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+30-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:18:13-163
+31            android:exported="true"
+31-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:15:13-36
+32            android:hardwareAccelerated="true"
+32-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:19:13-47
+33            android:launchMode="singleTop"
+33-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:16:13-43
+34            android:theme="@style/LaunchTheme"
+34-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:17:13-47
+35            android:windowSoftInputMode="adjustResize" >
+35-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:20:13-55
+36            <meta-data
+36-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:21:13-24:19
+37                android:name="io.flutter.embedding.android.NormalTheme"
+37-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:22:17-72
+38                android:resource="@style/NormalTheme" />
+38-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:23:17-54
+39
+40            <intent-filter>
+40-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:25:13-28:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:26:17-68
+41-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:26:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:27:17-76
+43-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:27:27-74
+44            </intent-filter>
+45        </activity>
+46
+47        <meta-data
+47-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:30:9-32:33
+48            android:name="flutterEmbedding"
+48-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:31:13-44
+49            android:value="2" />
+49-->C:\fluuter_project\task_1\android\app\src\main\AndroidManifest.xml:32:13-30
+50
+51        <provider
+51-->[:image_picker_android] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+12\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:9-17:20
+52            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+52-->[:image_picker_android] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+12\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:13-82
+53            android:authorities="com.example.task_1.flutter.image_provider"
+53-->[:image_picker_android] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+12\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+54            android:exported="false"
+54-->[:image_picker_android] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+12\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+55            android:grantUriPermissions="true" >
+55-->[:image_picker_android] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+12\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-47
+56            <meta-data
+56-->[:image_picker_android] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+12\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-16:75
+57                android:name="android.support.FILE_PROVIDER_PATHS"
+57-->[:image_picker_android] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+12\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:17-67
+58                android:resource="@xml/flutter_image_picker_file_paths" />
+58-->[:image_picker_android] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+12\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-72
+59        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+60        <service
+60-->[:image_picker_android] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+12\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-31:19
+61            android:name="com.google.android.gms.metadata.ModuleDependencies"
+61-->[:image_picker_android] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+12\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-78
+62            android:enabled="false"
+62-->[:image_picker_android] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+12\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-36
+63            android:exported="false" >
+63-->[:image_picker_android] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+12\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-37
+64            <intent-filter>
+64-->[:image_picker_android] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+12\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-26:29
+65                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+65-->[:image_picker_android] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+12\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:17-94
+65-->[:image_picker_android] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+12\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:25-91
+66            </intent-filter>
+67
+68            <meta-data
+68-->[:image_picker_android] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+12\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-30:36
+69                android:name="photopicker_activity:0:required"
+69-->[:image_picker_android] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+12\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:17-63
+70                android:value="" />
+70-->[:image_picker_android] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+12\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:17-33
+71        </service>
+72
+73        <activity
+73-->[:url_launcher_android] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_android-6.3.9\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:9-11:74
+74            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+74-->[:url_launcher_android] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_android-6.3.9\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-74
+75            android:exported="false"
+75-->[:url_launcher_android] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_android-6.3.9\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:13-37
+76            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+76-->[:url_launcher_android] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\url_launcher_android-6.3.9\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-71
+77
+78        <provider
+78-->[:printing] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\printing-5.14.2\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:9-16:20
+79            android:name="net.nfet.flutter.printing.PrintFileProvider"
+79-->[:printing] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\printing-5.14.2\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:13-71
+80            android:authorities="com.example.task_1.flutter.printing"
+80-->[:printing] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\printing-5.14.2\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:13-68
+81            android:exported="false"
+81-->[:printing] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\printing-5.14.2\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-37
+82            android:grantUriPermissions="true" >
+82-->[:printing] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\printing-5.14.2\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-47
+83            <meta-data
+83-->[:image_picker_android] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+12\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-16:75
+84                android:name="android.support.FILE_PROVIDER_PATHS"
+84-->[:image_picker_android] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+12\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:17-67
+85                android:resource="@xml/flutter_printing_file_paths" />
+85-->[:image_picker_android] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+12\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-72
+86        </provider>
+87        <!--
+88           Declares a provider which allows us to store files to share in
+89           '.../caches/share_plus' and grant the receiving action access
+90        -->
+91        <provider
+91-->[:share_plus] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-10.1.4\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:9-21:20
+92            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+92-->[:share_plus] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-10.1.4\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-77
+93            android:authorities="com.example.task_1.flutter.share_provider"
+93-->[:share_plus] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-10.1.4\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-74
+94            android:exported="false"
+94-->[:share_plus] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-10.1.4\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-37
+95            android:grantUriPermissions="true" >
+95-->[:share_plus] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-10.1.4\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-47
+96            <meta-data
+96-->[:image_picker_android] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+12\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-16:75
+97                android:name="android.support.FILE_PROVIDER_PATHS"
+97-->[:image_picker_android] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+12\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:17-67
+98                android:resource="@xml/flutter_share_file_paths" />
+98-->[:image_picker_android] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\image_picker_android-0.8.12+12\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-72
+99        </provider>
+100        <!--
+101           This manifest declared broadcast receiver allows us to use an explicit
+102           Intent when creating a PendingItent to be informed of the user's choice
+103        -->
+104        <receiver
+104-->[:share_plus] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-10.1.4\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:9-32:20
+105            android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
+105-->[:share_plus] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-10.1.4\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-82
+106            android:exported="false" >
+106-->[:share_plus] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-10.1.4\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-37
+107            <intent-filter>
+107-->[:share_plus] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-10.1.4\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:13-31:29
+108                <action android:name="EXTRA_CHOSEN_COMPONENT" />
+108-->[:share_plus] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-10.1.4\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:17-65
+108-->[:share_plus] C:\Users\madao\AppData\Local\Pub\Cache\hosted\pub.dev\share_plus-10.1.4\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:25-62
+109            </intent-filter>
+110        </receiver>
+111
+112        <uses-library
+112-->[androidx.window:window:1.2.0] C:\Users\madao\.gradle\caches\transforms-3\824e0929a3e9fd0be49436945b82d838\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+113            android:name="androidx.window.extensions"
+113-->[androidx.window:window:1.2.0] C:\Users\madao\.gradle\caches\transforms-3\824e0929a3e9fd0be49436945b82d838\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+114            android:required="false" />
+114-->[androidx.window:window:1.2.0] C:\Users\madao\.gradle\caches\transforms-3\824e0929a3e9fd0be49436945b82d838\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+115        <uses-library
+115-->[androidx.window:window:1.2.0] C:\Users\madao\.gradle\caches\transforms-3\824e0929a3e9fd0be49436945b82d838\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+116            android:name="androidx.window.sidecar"
+116-->[androidx.window:window:1.2.0] C:\Users\madao\.gradle\caches\transforms-3\824e0929a3e9fd0be49436945b82d838\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+117            android:required="false" />
+117-->[androidx.window:window:1.2.0] C:\Users\madao\.gradle\caches\transforms-3\824e0929a3e9fd0be49436945b82d838\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+118
+119        <provider
+119-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\madao\.gradle\caches\transforms-3\021ba6754e81d906a6271cadb6545f22\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+120            android:name="androidx.startup.InitializationProvider"
+120-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\madao\.gradle\caches\transforms-3\021ba6754e81d906a6271cadb6545f22\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
+121            android:authorities="com.example.task_1.androidx-startup"
+121-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\madao\.gradle\caches\transforms-3\021ba6754e81d906a6271cadb6545f22\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
+122            android:exported="false" >
+122-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\madao\.gradle\caches\transforms-3\021ba6754e81d906a6271cadb6545f22\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
+123            <meta-data
+123-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\madao\.gradle\caches\transforms-3\021ba6754e81d906a6271cadb6545f22\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+124                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+124-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\madao\.gradle\caches\transforms-3\021ba6754e81d906a6271cadb6545f22\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+125                android:value="androidx.startup" />
+125-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\madao\.gradle\caches\transforms-3\021ba6754e81d906a6271cadb6545f22\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+126            <meta-data
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\madao\.gradle\caches\transforms-3\cffd1e44199180fc840f34c8065f632c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+127                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\madao\.gradle\caches\transforms-3\cffd1e44199180fc840f34c8065f632c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+128                android:value="androidx.startup" />
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\madao\.gradle\caches\transforms-3\cffd1e44199180fc840f34c8065f632c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+129        </provider>
+130
+131        <receiver
+131-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\madao\.gradle\caches\transforms-3\cffd1e44199180fc840f34c8065f632c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+132            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+132-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\madao\.gradle\caches\transforms-3\cffd1e44199180fc840f34c8065f632c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+133            android:directBootAware="false"
+133-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\madao\.gradle\caches\transforms-3\cffd1e44199180fc840f34c8065f632c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+134            android:enabled="true"
+134-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\madao\.gradle\caches\transforms-3\cffd1e44199180fc840f34c8065f632c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+135            android:exported="true"
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\madao\.gradle\caches\transforms-3\cffd1e44199180fc840f34c8065f632c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+136            android:permission="android.permission.DUMP" >
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\madao\.gradle\caches\transforms-3\cffd1e44199180fc840f34c8065f632c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+137            <intent-filter>
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\madao\.gradle\caches\transforms-3\cffd1e44199180fc840f34c8065f632c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+138                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\madao\.gradle\caches\transforms-3\cffd1e44199180fc840f34c8065f632c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\madao\.gradle\caches\transforms-3\cffd1e44199180fc840f34c8065f632c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+139            </intent-filter>
+140            <intent-filter>
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\madao\.gradle\caches\transforms-3\cffd1e44199180fc840f34c8065f632c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+141                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\madao\.gradle\caches\transforms-3\cffd1e44199180fc840f34c8065f632c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\madao\.gradle\caches\transforms-3\cffd1e44199180fc840f34c8065f632c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+142            </intent-filter>
+143            <intent-filter>
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\madao\.gradle\caches\transforms-3\cffd1e44199180fc840f34c8065f632c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+144                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\madao\.gradle\caches\transforms-3\cffd1e44199180fc840f34c8065f632c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\madao\.gradle\caches\transforms-3\cffd1e44199180fc840f34c8065f632c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+145            </intent-filter>
+146            <intent-filter>
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\madao\.gradle\caches\transforms-3\cffd1e44199180fc840f34c8065f632c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+147                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\madao\.gradle\caches\transforms-3\cffd1e44199180fc840f34c8065f632c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\madao\.gradle\caches\transforms-3\cffd1e44199180fc840f34c8065f632c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+148            </intent-filter>
+149        </receiver>
+150    </application>
+151
+152</manifest>

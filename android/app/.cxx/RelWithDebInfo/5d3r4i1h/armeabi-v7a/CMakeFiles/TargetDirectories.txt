@@ -1,0 +1,2 @@
+C:/fluuter_project/task_1/android/app/.cxx/RelWithDebInfo/5d3r4i1h/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/fluuter_project/task_1/android/app/.cxx/RelWithDebInfo/5d3r4i1h/armeabi-v7a/CMakeFiles/rebuild_cache.dir
